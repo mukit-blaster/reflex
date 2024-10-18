@@ -1,6 +1,6 @@
 // Redirect to the login page
 document.getElementById("login-btn").addEventListener("click", function () {
-  window.location.href = "/login page/login.html";
+  window.location.href = "./login page/login.html";
 });
 
 // Redirect to the signnup page
