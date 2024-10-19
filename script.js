@@ -5,29 +5,29 @@ document.getElementById("login-btn").addEventListener("click", function () {
 
 // Redirect to the signnup page
 document.getElementById("signup-btn").addEventListener("click", function () {
-  window.location.href = "/signup page/signup.html";
+  window.location.href = "./signup page/signup.html";
 });
 
 // Redirect to the audio therapy page
 document.getElementById("audio-therapy").addEventListener("click", function () {
-  window.location.href = "/music player/music.html";
+  window.location.href = "./music player/music.html";
 });
 
 // Redirect to the appointment page
 document.getElementById("exploreBtn").addEventListener("click", function () {
-  window.location.href = "/appointment booking/booking.html";
+  window.location.href = "./appointment booking/booking.html";
 });
 
 // Redirect to the yoga page
 document.getElementById("yoga-therapy").addEventListener("click", function () {
-  window.location.href = "/yoga therapy/yoga.html";
+  window.location.href = "./yoga therapy/yoga.html";
 });
 
 // Redirect to the reading therapy page
 document
   .getElementById("reading-therapy")
   .addEventListener("click", function () {
-    window.location.href = "/reading therapy/reading.html";
+    window.location.href = "./reading therapy/reading.html";
   });
 
 //Get the button
