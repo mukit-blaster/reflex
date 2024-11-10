@@ -939,16 +939,16 @@ a:focus {
   color: inherit;
 }
 
+
 /* service */
 
 .services-section {
   background: linear-gradient(135deg, #e3f2f1, #a5d6a7);
-  /color: #333;
+  color: #333;
   min-height: 100vh;
   padding: 50px 0;
   overflow: hidden;
 }
-
 
 
 .service-card {
@@ -977,10 +977,18 @@ a:focus {
   flex-grow: 1; 
 }
 
+.services-section .btn-custom {
+  margin-top: auto; 
+}
+
+
+
+
 .service-card:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
+
 
 .service-card img {
   width: 120px;
@@ -991,6 +999,7 @@ a:focus {
   margin-bottom: 15px;
   border-radius: 50%;
   transition: transform 0.3s ease;
+  display: block;
 }
 
 .service-card img:hover {
@@ -1014,6 +1023,7 @@ a:focus {
   box-shadow: 0 4px 15px rgba(245, 244, 244, 0.2);
   color: white;
 }
+
 
 /* goging ro top buttonm */
 #btn-back-to-top {
