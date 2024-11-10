@@ -949,8 +949,13 @@ a:focus {
   overflow: hidden;
 }
 
+
+
 .service-card {
   background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  max-width: 300px; 
+  min-height: 400px; 
   padding: 25px;
   margin: 15px;
   border-radius: 15px;
@@ -960,7 +965,16 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between; 
+}
+
+.service-card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.service-card p {
+  flex-grow: 1; 
 }
 
 .service-card:hover {
